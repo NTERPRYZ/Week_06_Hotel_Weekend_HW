@@ -1,5 +1,6 @@
 import Hotel.BedroomType;
 import Hotel.Room;
+import Hotel.RoomType;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -7,17 +8,16 @@ import static org.junit.Assert.assertEquals;
 
 public class RoomTest {
 
-    Room room;
+    private Room room;
+    private RoomType roomType;
+
 
     @Before
     public void before() {
-        room = new Room("Bedroom", 2, 100, 2);
+        room = new Room(2, 100, 2);
+        roomType = new RoomType("bedroom");
     }
 
-    @Test
-    public void canGetRoomType() {
-        assertEquals("Bedroom", room.getRoomType());
-    }
 
     @Test
     public void canGetRoomCapacity() {
