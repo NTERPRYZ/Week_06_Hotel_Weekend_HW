@@ -9,7 +9,7 @@ public class BedroomTest {
 
     @Before
     public void before(){
-        bedroom = new Bedroom(BedroomType.SINGLE);
+        bedroom = new Bedroom(BedroomType.SINGLE, 1);
     }
 
     @Test
@@ -19,14 +19,14 @@ public class BedroomTest {
 
     @Test
     public void singlePriceIs50(){
-        bedroom = new Bedroom(BedroomType.SINGLE);
+        bedroom = new Bedroom(BedroomType.SINGLE, 1);
         int value = bedroom.getBedroomType().getPrice();
         assertEquals(50, value);
     }
 
     @Test
     public void doubleCapacityIs2(){
-        bedroom = new Bedroom(BedroomType.DOUBLE);
+        bedroom = new Bedroom(BedroomType.DOUBLE, 2);
         int value = bedroom.getBedroomType().getCapacity();
         assertEquals(2, value);
     }

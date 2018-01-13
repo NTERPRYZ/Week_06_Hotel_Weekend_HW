@@ -12,7 +12,6 @@ public class RoomTest {
     @Before
     public void before() {
         room = new Room(2, 100, 2);
-        roomType = new RoomType("bedroom");
     }
 
 

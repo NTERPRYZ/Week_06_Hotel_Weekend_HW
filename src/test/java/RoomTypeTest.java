@@ -9,7 +9,7 @@ public class RoomTypeTest {
 
     @Before
     public void before() {
-        roomType = new RoomType("Bedroom");
+        roomType = new RoomType("Bedroom", 1, 50, 1);
     }
 
     @Test
