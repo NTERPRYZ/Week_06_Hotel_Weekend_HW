@@ -18,6 +18,17 @@ public class BedroomTest {
     }
 
     @Test
+    public void singlePriceIs50(){
+        bedroom = new Bedroom(BedroomType.SINGLE);
+        int value = bedroom.getBedroomType().getPrice();
+        assertEquals(50, value);
+    }
 
+    @Test
+    public void doubleCapacityIs2(){
+        bedroom = new Bedroom(BedroomType.DOUBLE);
+        int value = bedroom.getBedroomType().getCapacity();
+        assertEquals(2, value);
+    }
 
 }

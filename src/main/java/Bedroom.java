@@ -9,13 +9,9 @@ public class Bedroom {
         this.bedroomType = bedroomType;
     }
 
-public BedroomType getBedroomType(){
+    public BedroomType getBedroomType(){
         return this.bedroomType;
-}
-
-
-
-
+    }
 
 
 }

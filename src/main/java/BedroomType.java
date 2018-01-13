@@ -10,4 +10,12 @@ public enum BedroomType {
         this.capacity = capacity;
         this.price = price;
     }
+
+    public int getPrice() {
+        return this.price;
+    }
+
+    public int getCapacity() {
+        return this.capacity;
+    }
 }
