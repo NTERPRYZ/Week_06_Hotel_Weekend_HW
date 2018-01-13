@@ -1,6 +1,3 @@
-import Hotel.BedroomType;
-import Hotel.Room;
-import Hotel.RoomType;
 import org.junit.Before;
 import org.junit.Test;
 

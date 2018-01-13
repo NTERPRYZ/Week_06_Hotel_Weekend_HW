@@ -1,5 +1,3 @@
-package Hotel;
-
 public enum BedroomType {
 
     SINGLE (1, 50),

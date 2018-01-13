@@ -1,5 +1,3 @@
-package Hotel;
-
 public class RoomType {
 
     private String type;
